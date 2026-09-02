@@ -1,0 +1,24 @@
+# 密钥与本地配置（含 LLM API Key / 网关令牌，严禁提交）
+config.json
+
+# 运行时数据
+sessions/
+uploads/
+output/
+tasks/
+
+# 日志与临时文件
+*.log
+*.tmp
+_tmp_*
+test.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/

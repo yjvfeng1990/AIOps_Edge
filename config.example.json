@@ -1,0 +1,27 @@
+{
+  "llm": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "sk-xxxxxxxxxxxxxxxx",
+    "model": "deepseek-chat",
+    "temperature": 0.2,
+    "max_tokens": 16384,
+    "timeout": 180,
+    "json_mode": true,
+    "system_prompt": ""
+  },
+  "gateway": {
+    "url": "http://192.168.1.100",
+    "token": ""
+  },
+  "ota": {
+    "url": "http://10.10.0.6:8080",
+    "token": "edgeos-ota-2024"
+  },
+  "agent": {
+    "max_kb_topics": 5,
+    "max_gateway_calls": 8,
+    "history_rounds": 6,
+    "gw_result_chars": 3000,
+    "kb_chars_per_doc": 9000
+  }
+}
